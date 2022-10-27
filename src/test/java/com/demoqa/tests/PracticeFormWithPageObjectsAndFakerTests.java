@@ -37,7 +37,7 @@ public class PracticeFormWithPageObjectsAndFakerTests extends TestData{
                .checkResult("Student Email",email)
                .checkResult("Gender",gender)
                .checkResult("Mobile",phone)
-               .checkResult("Date of Birth",day + " " + month + "," + year)
+               .checkResult("Date of Birth",date)
                .checkResult("Subjects",subject)
                .checkResult("Hobbies",hobby)
                .checkResult("Address",currentAddress)

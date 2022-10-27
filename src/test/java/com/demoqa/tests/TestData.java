@@ -25,7 +25,8 @@ public class TestData {
              //path = "src/test/resources/kot.jpg",
              state = "Haryana",
              city = "Karnal",
-             day = String.valueOf(faker.number().numberBetween(1, 31)),
+             //day = String.valueOf(faker.number().numberBetween(1, 31)),
+             day = String.format("%02d", faker.number().numberBetween(1,28)),
              month = String.valueOf(RandomUtils.RandomMonth.getRandomMonth()),
              year = String.valueOf(faker.number().numberBetween(1920, 2003)),
              date = day + " " + month + "," + year;
