@@ -2,12 +2,12 @@ package com.demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.demoqa.pages.PracticeFormPage;
+import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class PracticeFormWithPageObjectsTests {
     PracticeFormPage practiceFormPage = new PracticeFormPage();
-
     @BeforeAll
     static void configure() {
         Configuration.baseUrl = "https://demoqa.com";
